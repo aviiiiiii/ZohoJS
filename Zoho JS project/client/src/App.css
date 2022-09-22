@@ -1,0 +1,121 @@
+.topnav * {
+float: left;
+text-align: center;
+}
+
+.search-icon{
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.search-box input{
+  width: 300px;
+  height: 24px;
+
+}
+
+.search-box{
+  margin-left: 20px;
+}
+
+.search-box button{
+  height:20px
+}
+
+  .topnav-right {
+float: right;
+display: inline-flex;
+}
+
+button {
+  background-color: #215bed; 
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+ font-size: 14px; 
+}
+
+Button:hover{
+  background-color: #083dc4;
+}
+
+.table-vehicle{
+  margin-top: 100px;
+  width: 100%;
+}
+
+.table-vehicle th, .table-vehicle td{
+  border-width: 1px;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px; 
+}
+
+
+.add-form{
+  background-color: whitesmoke;
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  padding: 10px;
+  width: 50%;
+  height : 450px;
+}
+
+.add-form input, .add-form select, .add-form label, .add-form button{
+  font-size: 18px;
+  margin: 10px;
+}
+
+.add-form p{
+  font-size: 18px;
+  margin: 10px;
+  text-decoration: underline;
+}
+
+.btn-add{
+  text-align: center;
+}
+
+.add-formClose{
+  position: fixed;
+  right: 5px;
+  top: 5px;
+}
+
+.show{
+  display: block;
+}
+
+
+.dropdown-content button{
+  background-color: white;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+}
+
+.dropdown-content button:hover{
+  background-color: grey;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
+
+}
+
+#deleteSelect{
+  font-size: larger;
+}
